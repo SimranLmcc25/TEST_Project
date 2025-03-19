@@ -308,7 +308,7 @@
                             <span class="elementLabel">Enter C for Cancellation :</span>
                         </td>
                         <td align="left" nowrap>
-                            <asp:TextBox ID="txtStatus" runat="server" MaxLength="1" Width="20px" CssClass="textBox"
+                            <asp:TextBox ID="txtStatus" runat="server" MaxLength="4" Width="20px" CssClass="textBox"
                                 TabIndex="4"></asp:TextBox>
                         </td>
                     </tr>
