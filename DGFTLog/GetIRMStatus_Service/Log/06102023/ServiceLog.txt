@@ -1,0 +1,192 @@
+06-10-2023 15:39:05: IRM_Status Service started 
+06-10-2023 15:39:05: IRM_Status Service Mode : INTERVAL
+06-10-2023 15:39:05: IRM_Status Service scheduled to run after: 0 day(s) 0 hour(s) 5 minute(s) 0 seconds(s)
+06-10-2023 15:44:05: IRM_Status Service SchedularCallback starts:
+06-10-2023 15:44:05: IRM_Status Service Mode : INTERVAL
+06-10-2023 15:44:05: IRM_Status Service scheduled to run after: 0 day(s) 0 hour(s) 5 minute(s) 0 seconds(s)
+06-10-2023 15:44:05: IRM_Status Service GenerateAuth started
+06-10-2023 15:44:05: GenerateAuthTokenAsync Api url : https://api.dgft.gov.in/auth/generateAuthToken
+06-10-2023 15:44:05: GenerateAuthTokenAsync Api key : mftvGzrefGa0uRZN6Ykxaa4H2EzaRpJ338DTRPiq
+06-10-2023 15:44:05: Userid : ANZBG_api_user pwd : YW56YmdAMTIzNEU=
+06-10-2023 15:44:06: response StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amzn-RequestId: 5e3a5f13-0f6d-40f3-9a9f-a8a9736cc6de
+  x-amz-apigw-id: MX-dCEPOhcwFdYg=
+  X-Amzn-Trace-Id: Root=1-651fddec-28ddbcc77a51a16f21707855;Sampled=0;lineage=50997973:0
+  Date: Fri, 06 Oct 2023 10:14:05 GMT
+  Content-Length: 1134
+  Content-Type: application/json
+}
+06-10-2023 15:44:06: responsebody : {"AccessToken": "eyJraWQiOiJcL0dWa2VucXUrazZadkpocTk0ZVFOK0Q1bDRManJtbERZTjBPYWdUcFZFYz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5NDk4MzM5NS05OWE2LTRmYmUtYjc1Mi04MmE5ODRlZGM5YzEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9KcmozZXlUVDkiLCJjb2duaXRvOnVzZXJuYW1lIjoiYW56YmdfYXBpX3VzZXIiLCJvcmlnaW5fanRpIjoiOWMyNGEzMDMtYjkyNi00OTAyLThlYjctYjc1ODA0NzdmOWM0IiwiYXVkIjoiN25hYnBiOTduMzE1MjV2a21zY3U4ZmZmczciLCJldmVudF9pZCI6IjExOTVlZGY0LWQ4MGEtNGNhZi1iYzc1LTVkNDdlYjU3ZDYyNiIsInRva2VuX3VzZSI6ImlkIiwic2NvcGUiOiIiLCJhdXRoX3RpbWUiOjE2OTY1ODcyNDUsImV4cCI6MTY5NjU5MDg0NSwiaWF0IjoxNjk2NTg3MjQ1LCJqdGkiOiI4NmMxZjE3NC1kNzU5LTQzNzQtOGQzNC0wMzVhMmI2Y2Q5ZjAiLCJlbWFpbCI6ImFuemJnQGFuemJnLmNvbSJ9.QWzBR0E0WClif4wkHAPZvDqX3hyDJ9AOQtq3A4oz6nG5ToOf5qxgAWPjd_CLouGP61kKAODV0h6nkTFZLCUhTRa5P2Kx_zu4_4p7l6WoTWJZDRFPEjYYm2MVEEav53l5KhWHtOR5wHGDLhUXrTxJEnzywmUB6q-Dfy0R1VR8GlzDiZyB4En7TdzhrlqGr-IVZdzh_eJGAehC6lhLTBk2zw1hc8PsbL5P21lyJnpTOyqCgj0OjCMFyNukgImTF8zDIJiQM6sxUb6BsGF_QTXTsNEuLMdYwpYFsMwh2rCGsEYRKqbwtB5fijkxnqyHTRXbKE0ZhGt27BpgoGBI_QbclA", "ExpiresIn": 3600, "userID": "ANZBG_api_user"}
+06-10-2023 15:44:06: Access Token : eyJraWQiOiJcL0dWa2VucXUrazZadkpocTk0ZVFOK0Q1bDRManJtbERZTjBPYWdUcFZFYz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5NDk4MzM5NS05OWE2LTRmYmUtYjc1Mi04MmE5ODRlZGM5YzEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9KcmozZXlUVDkiLCJjb2duaXRvOnVzZXJuYW1lIjoiYW56YmdfYXBpX3VzZXIiLCJvcmlnaW5fanRpIjoiOWMyNGEzMDMtYjkyNi00OTAyLThlYjctYjc1ODA0NzdmOWM0IiwiYXVkIjoiN25hYnBiOTduMzE1MjV2a21zY3U4ZmZmczciLCJldmVudF9pZCI6IjExOTVlZGY0LWQ4MGEtNGNhZi1iYzc1LTVkNDdlYjU3ZDYyNiIsInRva2VuX3VzZSI6ImlkIiwic2NvcGUiOiIiLCJhdXRoX3RpbWUiOjE2OTY1ODcyNDUsImV4cCI6MTY5NjU5MDg0NSwiaWF0IjoxNjk2NTg3MjQ1LCJqdGkiOiI4NmMxZjE3NC1kNzU5LTQzNzQtOGQzNC0wMzVhMmI2Y2Q5ZjAiLCJlbWFpbCI6ImFuemJnQGFuemJnLmNvbSJ9.QWzBR0E0WClif4wkHAPZvDqX3hyDJ9AOQtq3A4oz6nG5ToOf5qxgAWPjd_CLouGP61kKAODV0h6nkTFZLCUhTRa5P2Kx_zu4_4p7l6WoTWJZDRFPEjYYm2MVEEav53l5KhWHtOR5wHGDLhUXrTxJEnzywmUB6q-Dfy0R1VR8GlzDiZyB4En7TdzhrlqGr-IVZdzh_eJGAehC6lhLTBk2zw1hc8PsbL5P21lyJnpTOyqCgj0OjCMFyNukgImTF8zDIJiQM6sxUb6BsGF_QTXTsNEuLMdYwpYFsMwh2rCGsEYRKqbwtB5fijkxnqyHTRXbKE0ZhGt27BpgoGBI_QbclA
+06-10-2023 15:44:06: ExpiresIn : 3600
+06-10-2023 15:44:06: UserID : ANZBG_api_user
+06-10-2023 15:44:06: Dt value :  UniqueTxId_i : INOSC0000MUM0610202300001 , status_i : Validated
+06-10-2023 15:44:06: DGFT Service GetIRMProcessingStatus  started. 
+06-10-2023 15:44:06: Get IRM Processing Status API URL: https://api.dgft.gov.in/ebrc/getIRMProcessingStatus
+06-10-2023 15:44:06: Get IRM Processing Status Http client created. 
+06-10-2023 15:44:06: Request data : { uniqueTxId = INOSC0000MUM0610202300001 }
+06-10-2023 15:44:06: Get IRM Processing Status response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amzn-RequestId: 9ad6aa14-e38d-4a3a-9157-361979330350
+  x-amz-apigw-id: MX-dIG-iBcwFn0A=
+  X-Amzn-Trace-Id: Root=1-651fdded-584dda126bf818e84c3a2072;Sampled=0;lineage=519c4247:0
+  Date: Fri, 06 Oct 2023 10:14:05 GMT
+  Content-Length: 823
+  Content-Type: application/json
+}
+06-10-2023 15:44:06: Get IRM Processing Status response body: {"data":"G7/SUKXMZQArALGipqA5iAyctvWSQO4fN2kVqcT97HPUjfPxg4hMSOaacXUSNH9zDfHkRFHQVwmvX9deU+EkHAxt5s7oL/lRnEgLh0vhwsrrKz1f96q1JrGCxMprkNw0a+s81cNlyuRCmd2wV2VqLM1HjLPNkpzwLiZp2CAiuTHNWiOEI1oepx38xJ+JeuD9tTSHXRZGIsAT0WTMoJCbae04eesj8aWUc9Dl/jKH3oJxc/3yHQ8vy9a/x8oy5+xp8DUuSbIuK7kyo9kVo/1c70nd4Tx7nJIu8ECP6FFwKwyJKSHPfCd8qDLR2deuCW/T16oJdzPGM5SQFd6HT8wTW9vmVfoEzmvdICR/nwVeg+c/f7hZI38zCZL4S40HUSqOFXBnlpTOk3JW/BuYgmhRDmem0HhNA4rgRIHTNVjMYp5ht33ePq3AilXFeMNCp3iK","sign":"P8bXmKgDOUAHewhfR8GpfRF+bqXVJzBc4ReU7afAkSDJIWaLc11NHIr37rnCL7R/IMK1GInWN4FQEXVJA4EgVBH+2HmGgVObhQ8LDyPsEseaX2t+WS/w5P+yxtiWh0b1IK9oYtYqTFoD+2bDPSRGUWFJQ2WRNbaDI6om3gAhv6+ttcyoLdzgRu7X6ZZYftbWaPaS0LparfXZT+I9j9MBH7vkjVL4dzSZQszMia+9iMTefTT/VMwD8OWQyFNLcfY6gKOukYk0itn80Mam5PDVBf1Os4uWH6VooUxdOsRJVRfQSFclzgie8ssIru78E5PTRwqZV01+jGLq5FydVlNJWQ\u003d\u003d"}
+06-10-2023 15:44:06: Data : G7/SUKXMZQArALGipqA5iAyctvWSQO4fN2kVqcT97HPUjfPxg4hMSOaacXUSNH9zDfHkRFHQVwmvX9deU+EkHAxt5s7oL/lRnEgLh0vhwsrrKz1f96q1JrGCxMprkNw0a+s81cNlyuRCmd2wV2VqLM1HjLPNkpzwLiZp2CAiuTHNWiOEI1oepx38xJ+JeuD9tTSHXRZGIsAT0WTMoJCbae04eesj8aWUc9Dl/jKH3oJxc/3yHQ8vy9a/x8oy5+xp8DUuSbIuK7kyo9kVo/1c70nd4Tx7nJIu8ECP6FFwKwyJKSHPfCd8qDLR2deuCW/T16oJdzPGM5SQFd6HT8wTW9vmVfoEzmvdICR/nwVeg+c/f7hZI38zCZL4S40HUSqOFXBnlpTOk3JW/BuYgmhRDmem0HhNA4rgRIHTNVjMYp5ht33ePq3AilXFeMNCp3iK
+06-10-2023 15:44:06: Sign : P8bXmKgDOUAHewhfR8GpfRF+bqXVJzBc4ReU7afAkSDJIWaLc11NHIr37rnCL7R/IMK1GInWN4FQEXVJA4EgVBH+2HmGgVObhQ8LDyPsEseaX2t+WS/w5P+yxtiWh0b1IK9oYtYqTFoD+2bDPSRGUWFJQ2WRNbaDI6om3gAhv6+ttcyoLdzgRu7X6ZZYftbWaPaS0LparfXZT+I9j9MBH7vkjVL4dzSZQszMia+9iMTefTT/VMwD8OWQyFNLcfY6gKOukYk0itn80Mam5PDVBf1Os4uWH6VooUxdOsRJVRfQSFclzgie8ssIru78E5PTRwqZV01+jGLq5FydVlNJWQ==
+06-10-2023 15:44:06: DecodeAndDecrypt started.
+06-10-2023 15:44:06: Encrypted value : G7/SUKXMZQArALGipqA5iAyctvWSQO4fN2kVqcT97HPUjfPxg4hMSOaacXUSNH9zDfHkRFHQVwmvX9deU+EkHAxt5s7oL/lRnEgLh0vhwsrrKz1f96q1JrGCxMprkNw0a+s81cNlyuRCmd2wV2VqLM1HjLPNkpzwLiZp2CAiuTHNWiOEI1oepx38xJ+JeuD9tTSHXRZGIsAT0WTMoJCbae04eesj8aWUc9Dl/jKH3oJxc/3yHQ8vy9a/x8oy5+xp8DUuSbIuK7kyo9kVo/1c70nd4Tx7nJIu8ECP6FFwKwyJKSHPfCd8qDLR2deuCW/T16oJdzPGM5SQFd6HT8wTW9vmVfoEzmvdICR/nwVeg+c/f7hZI38zCZL4S40HUSqOFXBnlpTOk3JW/BuYgmhRDmem0HhNA4rgRIHTNVjMYp5ht33ePq3AilXFeMNCp3iK
+06-10-2023 15:44:06: signatureHex : P8bXmKgDOUAHewhfR8GpfRF+bqXVJzBc4ReU7afAkSDJIWaLc11NHIr37rnCL7R/IMK1GInWN4FQEXVJA4EgVBH+2HmGgVObhQ8LDyPsEseaX2t+WS/w5P+yxtiWh0b1IK9oYtYqTFoD+2bDPSRGUWFJQ2WRNbaDI6om3gAhv6+ttcyoLdzgRu7X6ZZYftbWaPaS0LparfXZT+I9j9MBH7vkjVL4dzSZQszMia+9iMTefTT/VMwD8OWQyFNLcfY6gKOukYk0itn80Mam5PDVBf1Os4uWH6VooUxdOsRJVRfQSFclzgie8ssIru78E5PTRwqZV01+jGLq5FydVlNJWQ==
+06-10-2023 15:44:07: decrypted value : eyJ1bmlxdWVUeElkIjoiSU5PU0MwMDAwTVVNMDYxMDIwMjMwMDAwMSIsInByb2Nlc3NpbmdTdGF0dXMiOiJWYWxpZGF0ZWQiLCJyZWN2ZFJlY29yZENvdW50IjoxLCJwcm9jZXNzZWRSZWNvcmRDb3VudCI6MSwiaXJtU3RhdHVzTHN0IjpbeyJpcm1OdW1iZXIiOiJJUk0wMzMzMzMzMjIyIiwiaXJtSXNzdWVEYXRlIjoiMDExMDIwMjMiLCJhY2tTdGF0dXMiOiJWYWxpZGF0ZWQifV19
+06-10-2023 15:44:07: signatureHex : P8bXmKgDOUAHewhfR8GpfRF+bqXVJzBc4ReU7afAkSDJIWaLc11NHIr37rnCL7R/IMK1GInWN4FQEXVJA4EgVBH+2HmGgVObhQ8LDyPsEseaX2t+WS/w5P+yxtiWh0b1IK9oYtYqTFoD+2bDPSRGUWFJQ2WRNbaDI6om3gAhv6+ttcyoLdzgRu7X6ZZYftbWaPaS0LparfXZT+I9j9MBH7vkjVL4dzSZQszMia+9iMTefTT/VMwD8OWQyFNLcfY6gKOukYk0itn80Mam5PDVBf1Os4uWH6VooUxdOsRJVRfQSFclzgie8ssIru78E5PTRwqZV01+jGLq5FydVlNJWQ==
+06-10-2023 15:44:07: VerifySignature started.
+06-10-2023 15:44:07: Decrypted data for signature verification is : eyJ1bmlxdWVUeElkIjoiSU5PU0MwMDAwTVVNMDYxMDIwMjMwMDAwMSIsInByb2Nlc3NpbmdTdGF0dXMiOiJWYWxpZGF0ZWQiLCJyZWN2ZFJlY29yZENvdW50IjoxLCJwcm9jZXNzZWRSZWNvcmRDb3VudCI6MSwiaXJtU3RhdHVzTHN0IjpbeyJpcm1OdW1iZXIiOiJJUk0wMzMzMzMzMjIyIiwiaXJtSXNzdWVEYXRlIjoiMDExMDIwMjMiLCJhY2tTdGF0dXMiOiJWYWxpZGF0ZWQifV19
+06-10-2023 15:44:07: signatureHex : P8bXmKgDOUAHewhfR8GpfRF+bqXVJzBc4ReU7afAkSDJIWaLc11NHIr37rnCL7R/IMK1GInWN4FQEXVJA4EgVBH+2HmGgVObhQ8LDyPsEseaX2t+WS/w5P+yxtiWh0b1IK9oYtYqTFoD+2bDPSRGUWFJQ2WRNbaDI6om3gAhv6+ttcyoLdzgRu7X6ZZYftbWaPaS0LparfXZT+I9j9MBH7vkjVL4dzSZQszMia+9iMTefTT/VMwD8OWQyFNLcfY6gKOukYk0itn80Mam5PDVBf1Os4uWH6VooUxdOsRJVRfQSFclzgie8ssIru78E5PTRwqZV01+jGLq5FydVlNJWQ==
+06-10-2023 15:44:07: Signature Verified: Data integrity confirmed.
+06-10-2023 15:44:07: Actual decoded data is : {"uniqueTxId":"INOSC0000MUM0610202300001","processingStatus":"Validated","recvdRecordCount":1,"processedRecordCount":1,"irmStatusLst":[{"irmNumber":"IRM0333333222","irmIssueDate":"01102023","ackStatus":"Validated"}]}
+06-10-2023 15:44:07: UniqueTxId : INOSC0000MUM0610202300001
+06-10-2023 15:44:07: ProcessingStatus : Validated
+06-10-2023 15:44:07: RecvdRecordCount : 1
+06-10-2023 15:44:07: ProcessedRecordCount : 1
+06-10-2023 15:44:07: IrmStatusLst : [
+  {
+    "irmNumber": "IRM0333333222",
+    "irmIssueDate": "01102023",
+    "ackStatus": "Validated"
+  }
+]
+06-10-2023 15:44:07: Status Updated for INOSC0000MUM0610202300001
+06-10-2023 15:44:07: Dt value :  UniqueTxId_i : INOSC0000MUM0510202300001 , status_i : Validated
+06-10-2023 15:44:07: DGFT Service GetIRMProcessingStatus  started. 
+06-10-2023 15:44:07: Get IRM Processing Status API URL: https://api.dgft.gov.in/ebrc/getIRMProcessingStatus
+06-10-2023 15:44:07: Get IRM Processing Status Http client created. 
+06-10-2023 15:44:07: Request data : { uniqueTxId = INOSC0000MUM0510202300001 }
+06-10-2023 15:44:08: Get IRM Processing Status response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amzn-RequestId: ca184b2c-1bf3-450a-be1b-d14bdee69e0a
+  x-amz-apigw-id: MX-dVGfRBcwFYiQ=
+  X-Amzn-Trace-Id: Root=1-651fddee-4bf946e665e4925440351166;Sampled=0;lineage=519c4247:0
+  Date: Fri, 06 Oct 2023 10:14:07 GMT
+  Content-Length: 857
+  Content-Type: application/json
+}
+06-10-2023 15:44:08: Get IRM Processing Status response body: {"data":"MKQcFtOLD5vEiqMIqTisvJavXgnpWkbOVDNMRvMIYwuoNQH8u0weJt8pS5+Y5eBjotG5VbCDq0XD2361zbm7kbfvgA+x3sNJ4wfu6KPtg6kmLRxj/A6AE925E2e7cjLbg6hFPvHYpfbt/pqMtpoxPKqO6bTlPm2WaeWEQKf+eaf83FhyKyz+6VCFFN7pR+QNE+cKa2TNdHBNZZ4zBEbqtzL+/2Taw2cBlKaI8ELJvpQ504MuwQjdVse3WIiPmn9sehVTkMwapMYlaLpVIuhpHzLgw6SLVEoyPDSfq870x0ZAwKUCiXJPet99hf+KhctAKMfx4GKSJHbRzGDyBaVDll8VUxsad/vr9ZDr2qVhyRSwtV3yHY8ViGFQARscymqNzoOf01Zf8NjHIBhFBmkVAOyN1DUrnD5i7Ko4QoCSZOl1jGdMN/Jyw2gJ4uQEXOoHok542mbuEbnHe8qUBnUwag\u003d\u003d","sign":"hhU73ayOJnO2+kkv3XTUkvcRleZ9cHzWdExIQ2oXoP5Aw1mUkoiSX0sDPK9351LIdPZjFpqvGY8IbFFFz+UB+aS1ByeyzcHfNcEHMVykJed32AZpQLaNo1uJGIdgVyo8V0N32EywMtWxq4gB/jYLK08FndCLPp8+PGsJDykvhUmqOM945u7pL2xafpELynpYyn1G1sUxRYezrxvc3p1Edlkczc7OGT9x6ex2uYIQ1cL/3mEZlD0Z7ovPPNPBMtxaf9SmnpBZAP8xMPbUrjDnkj1Cn3QmgJGKL4MXPIdl07Q9leEKDwf/9zcKrNVUW3vKlKcKTC7R0KWSzmpeZ2nf1w\u003d\u003d"}
+06-10-2023 15:44:08: Data : MKQcFtOLD5vEiqMIqTisvJavXgnpWkbOVDNMRvMIYwuoNQH8u0weJt8pS5+Y5eBjotG5VbCDq0XD2361zbm7kbfvgA+x3sNJ4wfu6KPtg6kmLRxj/A6AE925E2e7cjLbg6hFPvHYpfbt/pqMtpoxPKqO6bTlPm2WaeWEQKf+eaf83FhyKyz+6VCFFN7pR+QNE+cKa2TNdHBNZZ4zBEbqtzL+/2Taw2cBlKaI8ELJvpQ504MuwQjdVse3WIiPmn9sehVTkMwapMYlaLpVIuhpHzLgw6SLVEoyPDSfq870x0ZAwKUCiXJPet99hf+KhctAKMfx4GKSJHbRzGDyBaVDll8VUxsad/vr9ZDr2qVhyRSwtV3yHY8ViGFQARscymqNzoOf01Zf8NjHIBhFBmkVAOyN1DUrnD5i7Ko4QoCSZOl1jGdMN/Jyw2gJ4uQEXOoHok542mbuEbnHe8qUBnUwag==
+06-10-2023 15:44:08: Sign : hhU73ayOJnO2+kkv3XTUkvcRleZ9cHzWdExIQ2oXoP5Aw1mUkoiSX0sDPK9351LIdPZjFpqvGY8IbFFFz+UB+aS1ByeyzcHfNcEHMVykJed32AZpQLaNo1uJGIdgVyo8V0N32EywMtWxq4gB/jYLK08FndCLPp8+PGsJDykvhUmqOM945u7pL2xafpELynpYyn1G1sUxRYezrxvc3p1Edlkczc7OGT9x6ex2uYIQ1cL/3mEZlD0Z7ovPPNPBMtxaf9SmnpBZAP8xMPbUrjDnkj1Cn3QmgJGKL4MXPIdl07Q9leEKDwf/9zcKrNVUW3vKlKcKTC7R0KWSzmpeZ2nf1w==
+06-10-2023 15:44:08: DecodeAndDecrypt started.
+06-10-2023 15:44:08: Encrypted value : MKQcFtOLD5vEiqMIqTisvJavXgnpWkbOVDNMRvMIYwuoNQH8u0weJt8pS5+Y5eBjotG5VbCDq0XD2361zbm7kbfvgA+x3sNJ4wfu6KPtg6kmLRxj/A6AE925E2e7cjLbg6hFPvHYpfbt/pqMtpoxPKqO6bTlPm2WaeWEQKf+eaf83FhyKyz+6VCFFN7pR+QNE+cKa2TNdHBNZZ4zBEbqtzL+/2Taw2cBlKaI8ELJvpQ504MuwQjdVse3WIiPmn9sehVTkMwapMYlaLpVIuhpHzLgw6SLVEoyPDSfq870x0ZAwKUCiXJPet99hf+KhctAKMfx4GKSJHbRzGDyBaVDll8VUxsad/vr9ZDr2qVhyRSwtV3yHY8ViGFQARscymqNzoOf01Zf8NjHIBhFBmkVAOyN1DUrnD5i7Ko4QoCSZOl1jGdMN/Jyw2gJ4uQEXOoHok542mbuEbnHe8qUBnUwag==
+06-10-2023 15:44:08: signatureHex : hhU73ayOJnO2+kkv3XTUkvcRleZ9cHzWdExIQ2oXoP5Aw1mUkoiSX0sDPK9351LIdPZjFpqvGY8IbFFFz+UB+aS1ByeyzcHfNcEHMVykJed32AZpQLaNo1uJGIdgVyo8V0N32EywMtWxq4gB/jYLK08FndCLPp8+PGsJDykvhUmqOM945u7pL2xafpELynpYyn1G1sUxRYezrxvc3p1Edlkczc7OGT9x6ex2uYIQ1cL/3mEZlD0Z7ovPPNPBMtxaf9SmnpBZAP8xMPbUrjDnkj1Cn3QmgJGKL4MXPIdl07Q9leEKDwf/9zcKrNVUW3vKlKcKTC7R0KWSzmpeZ2nf1w==
+06-10-2023 15:44:08: decrypted value : eyJ1bmlxdWVUeElkIjoiSU5PU0MwMDAwTVVNMDUxMDIwMjMwMDAwMSIsInByb2Nlc3NpbmdTdGF0dXMiOiJQcm9jZXNzZWQiLCJyZWN2ZFJlY29yZENvdW50IjoxLCJwcm9jZXNzZWRSZWNvcmRDb3VudCI6MSwiaXJtU3RhdHVzTHN0IjpbeyJpcm1OdW1iZXIiOiJJUk1OTzkwOTA5MDIiLCJpcm1Jc3N1ZURhdGUiOiIwNTEwMjAyMyIsImFja1N0YXR1cyI6IlByb2Nlc3NlZCIsImVycm9yRGV0YWlscyI6W119XX0=
+06-10-2023 15:44:08: signatureHex : hhU73ayOJnO2+kkv3XTUkvcRleZ9cHzWdExIQ2oXoP5Aw1mUkoiSX0sDPK9351LIdPZjFpqvGY8IbFFFz+UB+aS1ByeyzcHfNcEHMVykJed32AZpQLaNo1uJGIdgVyo8V0N32EywMtWxq4gB/jYLK08FndCLPp8+PGsJDykvhUmqOM945u7pL2xafpELynpYyn1G1sUxRYezrxvc3p1Edlkczc7OGT9x6ex2uYIQ1cL/3mEZlD0Z7ovPPNPBMtxaf9SmnpBZAP8xMPbUrjDnkj1Cn3QmgJGKL4MXPIdl07Q9leEKDwf/9zcKrNVUW3vKlKcKTC7R0KWSzmpeZ2nf1w==
+06-10-2023 15:44:08: VerifySignature started.
+06-10-2023 15:44:08: Decrypted data for signature verification is : eyJ1bmlxdWVUeElkIjoiSU5PU0MwMDAwTVVNMDUxMDIwMjMwMDAwMSIsInByb2Nlc3NpbmdTdGF0dXMiOiJQcm9jZXNzZWQiLCJyZWN2ZFJlY29yZENvdW50IjoxLCJwcm9jZXNzZWRSZWNvcmRDb3VudCI6MSwiaXJtU3RhdHVzTHN0IjpbeyJpcm1OdW1iZXIiOiJJUk1OTzkwOTA5MDIiLCJpcm1Jc3N1ZURhdGUiOiIwNTEwMjAyMyIsImFja1N0YXR1cyI6IlByb2Nlc3NlZCIsImVycm9yRGV0YWlscyI6W119XX0=
+06-10-2023 15:44:08: signatureHex : hhU73ayOJnO2+kkv3XTUkvcRleZ9cHzWdExIQ2oXoP5Aw1mUkoiSX0sDPK9351LIdPZjFpqvGY8IbFFFz+UB+aS1ByeyzcHfNcEHMVykJed32AZpQLaNo1uJGIdgVyo8V0N32EywMtWxq4gB/jYLK08FndCLPp8+PGsJDykvhUmqOM945u7pL2xafpELynpYyn1G1sUxRYezrxvc3p1Edlkczc7OGT9x6ex2uYIQ1cL/3mEZlD0Z7ovPPNPBMtxaf9SmnpBZAP8xMPbUrjDnkj1Cn3QmgJGKL4MXPIdl07Q9leEKDwf/9zcKrNVUW3vKlKcKTC7R0KWSzmpeZ2nf1w==
+06-10-2023 15:44:08: Signature Verified: Data integrity confirmed.
+06-10-2023 15:44:08: Actual decoded data is : {"uniqueTxId":"INOSC0000MUM0510202300001","processingStatus":"Processed","recvdRecordCount":1,"processedRecordCount":1,"irmStatusLst":[{"irmNumber":"IRMNO9090902","irmIssueDate":"05102023","ackStatus":"Processed","errorDetails":[]}]}
+06-10-2023 15:44:08: UniqueTxId : INOSC0000MUM0510202300001
+06-10-2023 15:44:08: ProcessingStatus : Processed
+06-10-2023 15:44:08: RecvdRecordCount : 1
+06-10-2023 15:44:08: ProcessedRecordCount : 1
+06-10-2023 15:44:08: IrmStatusLst : [
+  {
+    "irmNumber": "IRMNO9090902",
+    "irmIssueDate": "05102023",
+    "ackStatus": "Processed",
+    "errorDetails": []
+  }
+]
+06-10-2023 15:44:08: Status Updated for INOSC0000MUM0510202300001
+06-10-2023 15:44:08: Dt value :  UniqueTxId_i : INOSC0000MUM0510202300003 , status_i : Validated
+06-10-2023 15:44:08: DGFT Service GetIRMProcessingStatus  started. 
+06-10-2023 15:44:08: Get IRM Processing Status API URL: https://api.dgft.gov.in/ebrc/getIRMProcessingStatus
+06-10-2023 15:44:08: Get IRM Processing Status Http client created. 
+06-10-2023 15:44:08: Request data : { uniqueTxId = INOSC0000MUM0510202300003 }
+06-10-2023 15:44:09: Get IRM Processing Status response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amzn-RequestId: 767ea29d-8857-46ac-b840-a32eb1576747
+  x-amz-apigw-id: MX-dhHsbhcwFgHA=
+  X-Amzn-Trace-Id: Root=1-651fddef-2c583b9167f6a83b1e2bf088;Sampled=0;lineage=519c4247:0
+  Date: Fri, 06 Oct 2023 10:14:08 GMT
+  Content-Length: 823
+  Content-Type: application/json
+}
+06-10-2023 15:44:09: Get IRM Processing Status response body: {"data":"FHQg/ycy89XPEW0a0cooBW4TYIF1uGXDktrDZE8b3CeDVT6Dz3VyAmhpN4KTSyCiMVIUc+8e5D/oIgaDBjQJfmbNUqrtz34It/VKSlfS6bW43H1kYu96zogrrHkrEI66dHc8WGMgv077DOZsQhNQX5AEncbZytGOpIwnYEO9qaIQlrMMVFzTXLZgfnxySiYmh9S/qtWa2/qCCaY0i7277H9Yi4T+vJ3QGdoIERaRzUls/ki3+n46tJ769TMBknNK3b+k9LcMyVGeYnGxsJR0M5lPXZQwXoCG4yh2r+Qn1FxwG3UL2Sxf/zfgiNTSVlRhSzOQPPNemFEHG+95EAWGjoRnOiYkT0q5cvNQZCuU9KUC9D2EKZRsUFk0c2f8h/LDqjdXQPrOpZIOb5JCE/7kz0HbKMDpT2QOB483Ry/3mSZMV4FxeroBSyRc+gFmTa9/","sign":"SsIgVl8zwZLmYhYUN/VgkdkKi4/CfMRSBNl7n+/xYNjaNdRTvN2Z/ELG1rsPSH2bOzov4t9huXoV8hhX3IZuf/SPdwtF59YmP8RftF60NA0KZEutXRgfZPT9mOYoeQo+7LM2v1TlZvJXOQddu1llaRXyYqb2TDMtUpXsC6T2qtUAzwson+FNuE50yiybgtpYKbJ43p2sxs1dWVec613v+iL677t0fTuPQSIsI4hyJQfs5d1ZzAccimeCB9Ml2tAODqubTTdzp0rBqtdhhC2aHkgyHeQpLaTEym46VVWP8nzV5IWSnYwPsGKqmb6vnvqoUx1Q6TySieHpY6EReH+84A\u003d\u003d"}
+06-10-2023 15:44:09: Data : FHQg/ycy89XPEW0a0cooBW4TYIF1uGXDktrDZE8b3CeDVT6Dz3VyAmhpN4KTSyCiMVIUc+8e5D/oIgaDBjQJfmbNUqrtz34It/VKSlfS6bW43H1kYu96zogrrHkrEI66dHc8WGMgv077DOZsQhNQX5AEncbZytGOpIwnYEO9qaIQlrMMVFzTXLZgfnxySiYmh9S/qtWa2/qCCaY0i7277H9Yi4T+vJ3QGdoIERaRzUls/ki3+n46tJ769TMBknNK3b+k9LcMyVGeYnGxsJR0M5lPXZQwXoCG4yh2r+Qn1FxwG3UL2Sxf/zfgiNTSVlRhSzOQPPNemFEHG+95EAWGjoRnOiYkT0q5cvNQZCuU9KUC9D2EKZRsUFk0c2f8h/LDqjdXQPrOpZIOb5JCE/7kz0HbKMDpT2QOB483Ry/3mSZMV4FxeroBSyRc+gFmTa9/
+06-10-2023 15:44:09: Sign : SsIgVl8zwZLmYhYUN/VgkdkKi4/CfMRSBNl7n+/xYNjaNdRTvN2Z/ELG1rsPSH2bOzov4t9huXoV8hhX3IZuf/SPdwtF59YmP8RftF60NA0KZEutXRgfZPT9mOYoeQo+7LM2v1TlZvJXOQddu1llaRXyYqb2TDMtUpXsC6T2qtUAzwson+FNuE50yiybgtpYKbJ43p2sxs1dWVec613v+iL677t0fTuPQSIsI4hyJQfs5d1ZzAccimeCB9Ml2tAODqubTTdzp0rBqtdhhC2aHkgyHeQpLaTEym46VVWP8nzV5IWSnYwPsGKqmb6vnvqoUx1Q6TySieHpY6EReH+84A==
+06-10-2023 15:44:09: DecodeAndDecrypt started.
+06-10-2023 15:44:09: Encrypted value : FHQg/ycy89XPEW0a0cooBW4TYIF1uGXDktrDZE8b3CeDVT6Dz3VyAmhpN4KTSyCiMVIUc+8e5D/oIgaDBjQJfmbNUqrtz34It/VKSlfS6bW43H1kYu96zogrrHkrEI66dHc8WGMgv077DOZsQhNQX5AEncbZytGOpIwnYEO9qaIQlrMMVFzTXLZgfnxySiYmh9S/qtWa2/qCCaY0i7277H9Yi4T+vJ3QGdoIERaRzUls/ki3+n46tJ769TMBknNK3b+k9LcMyVGeYnGxsJR0M5lPXZQwXoCG4yh2r+Qn1FxwG3UL2Sxf/zfgiNTSVlRhSzOQPPNemFEHG+95EAWGjoRnOiYkT0q5cvNQZCuU9KUC9D2EKZRsUFk0c2f8h/LDqjdXQPrOpZIOb5JCE/7kz0HbKMDpT2QOB483Ry/3mSZMV4FxeroBSyRc+gFmTa9/
+06-10-2023 15:44:09: signatureHex : SsIgVl8zwZLmYhYUN/VgkdkKi4/CfMRSBNl7n+/xYNjaNdRTvN2Z/ELG1rsPSH2bOzov4t9huXoV8hhX3IZuf/SPdwtF59YmP8RftF60NA0KZEutXRgfZPT9mOYoeQo+7LM2v1TlZvJXOQddu1llaRXyYqb2TDMtUpXsC6T2qtUAzwson+FNuE50yiybgtpYKbJ43p2sxs1dWVec613v+iL677t0fTuPQSIsI4hyJQfs5d1ZzAccimeCB9Ml2tAODqubTTdzp0rBqtdhhC2aHkgyHeQpLaTEym46VVWP8nzV5IWSnYwPsGKqmb6vnvqoUx1Q6TySieHpY6EReH+84A==
+06-10-2023 15:44:09: decrypted value : eyJ1bmlxdWVUeElkIjoiSU5PU0MwMDAwTVVNMDUxMDIwMjMwMDAwMyIsInByb2Nlc3NpbmdTdGF0dXMiOiJWYWxpZGF0ZWQiLCJyZWN2ZFJlY29yZENvdW50IjoxLCJwcm9jZXNzZWRSZWNvcmRDb3VudCI6MSwiaXJtU3RhdHVzTHN0IjpbeyJpcm1OdW1iZXIiOiJJUk1OTzExMTEwNzYyIiwiaXJtSXNzdWVEYXRlIjoiMDExMDIwMjMiLCJhY2tTdGF0dXMiOiJWYWxpZGF0ZWQifV19
+06-10-2023 15:44:09: signatureHex : SsIgVl8zwZLmYhYUN/VgkdkKi4/CfMRSBNl7n+/xYNjaNdRTvN2Z/ELG1rsPSH2bOzov4t9huXoV8hhX3IZuf/SPdwtF59YmP8RftF60NA0KZEutXRgfZPT9mOYoeQo+7LM2v1TlZvJXOQddu1llaRXyYqb2TDMtUpXsC6T2qtUAzwson+FNuE50yiybgtpYKbJ43p2sxs1dWVec613v+iL677t0fTuPQSIsI4hyJQfs5d1ZzAccimeCB9Ml2tAODqubTTdzp0rBqtdhhC2aHkgyHeQpLaTEym46VVWP8nzV5IWSnYwPsGKqmb6vnvqoUx1Q6TySieHpY6EReH+84A==
+06-10-2023 15:44:09: VerifySignature started.
+06-10-2023 15:44:09: Decrypted data for signature verification is : eyJ1bmlxdWVUeElkIjoiSU5PU0MwMDAwTVVNMDUxMDIwMjMwMDAwMyIsInByb2Nlc3NpbmdTdGF0dXMiOiJWYWxpZGF0ZWQiLCJyZWN2ZFJlY29yZENvdW50IjoxLCJwcm9jZXNzZWRSZWNvcmRDb3VudCI6MSwiaXJtU3RhdHVzTHN0IjpbeyJpcm1OdW1iZXIiOiJJUk1OTzExMTEwNzYyIiwiaXJtSXNzdWVEYXRlIjoiMDExMDIwMjMiLCJhY2tTdGF0dXMiOiJWYWxpZGF0ZWQifV19
+06-10-2023 15:44:09: signatureHex : SsIgVl8zwZLmYhYUN/VgkdkKi4/CfMRSBNl7n+/xYNjaNdRTvN2Z/ELG1rsPSH2bOzov4t9huXoV8hhX3IZuf/SPdwtF59YmP8RftF60NA0KZEutXRgfZPT9mOYoeQo+7LM2v1TlZvJXOQddu1llaRXyYqb2TDMtUpXsC6T2qtUAzwson+FNuE50yiybgtpYKbJ43p2sxs1dWVec613v+iL677t0fTuPQSIsI4hyJQfs5d1ZzAccimeCB9Ml2tAODqubTTdzp0rBqtdhhC2aHkgyHeQpLaTEym46VVWP8nzV5IWSnYwPsGKqmb6vnvqoUx1Q6TySieHpY6EReH+84A==
+06-10-2023 15:44:09: Signature Verified: Data integrity confirmed.
+06-10-2023 15:44:09: Actual decoded data is : {"uniqueTxId":"INOSC0000MUM0510202300003","processingStatus":"Validated","recvdRecordCount":1,"processedRecordCount":1,"irmStatusLst":[{"irmNumber":"IRMNO11110762","irmIssueDate":"01102023","ackStatus":"Validated"}]}
+06-10-2023 15:44:09: UniqueTxId : INOSC0000MUM0510202300003
+06-10-2023 15:44:09: ProcessingStatus : Validated
+06-10-2023 15:44:09: RecvdRecordCount : 1
+06-10-2023 15:44:09: ProcessedRecordCount : 1
+06-10-2023 15:44:09: IrmStatusLst : [
+  {
+    "irmNumber": "IRMNO11110762",
+    "irmIssueDate": "01102023",
+    "ackStatus": "Validated"
+  }
+]
+06-10-2023 15:44:09: Status Updated for INOSC0000MUM0510202300003
+06-10-2023 15:44:09: Dt value :  UniqueTxId_i : INOSC0000MUM0510202300002 , status_i : Validated
+06-10-2023 15:44:09: DGFT Service GetIRMProcessingStatus  started. 
+06-10-2023 15:44:09: Get IRM Processing Status API URL: https://api.dgft.gov.in/ebrc/getIRMProcessingStatus
+06-10-2023 15:44:09: Get IRM Processing Status Http client created. 
+06-10-2023 15:44:09: Request data : { uniqueTxId = INOSC0000MUM0510202300002 }
+06-10-2023 15:44:10: Get IRM Processing Status response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amzn-RequestId: 12d0ec82-882e-4eb5-b292-b780a42bb941
+  x-amz-apigw-id: MX-duH6ohcwFm7w=
+  X-Amzn-Trace-Id: Root=1-651fddf1-18f7fa487e1b033f14caa754;Sampled=0;lineage=519c4247:0
+  Date: Fri, 06 Oct 2023 10:14:09 GMT
+  Content-Length: 1000
+  Content-Type: application/json
+}
+06-10-2023 15:44:10: Get IRM Processing Status response body: {"data":"IulN9B+HZtjHfYC8XnImcvAWP3eYc6sXcjB1es1iZ/UuMzQAOAFbUjRqetb/44ihxYsmphCxuYzvx8YLE90o7rw5ekviqMsjhyFFTM5dXVeMHNfXbTLi9z5LsnmkVLASFfrdoZNi52LX0rvumBZaZ0Nr+6g/knu+h3JSIPxVOwFKrCRMMhhc+3pcR+TaF7EfDqKL2GdojjMN2o4Wj381D8j+R18jHMiNmDsr/u6AH6viFDlWvr7Bb5MLx+aZ1LNe/aLc0GBcExBybWTZn0P5cJSw74ZTi6nTRtsGDJlCmVpha0FM/F8Ys4bCOmrUFJyGcS/56amPGDbU+lr08ajtBjQ/R4p7D2CSftP+dmMSi4DYBVyn1XJRfpzdPLaaMJUG4dYEzoVNtz8Np+84XSW198l9c6eRh0NcO+3R0WOKzMpYZcgDFgNDZ2ZGR7qdmgGjx/30e+MmXm7jy71usdZyYSTW95cPUKfTECSPTXXCEWP3pZtvTRQs+lK4k6vHyAr6hGoiFV9YQJCQ/z8GN3c8xEcyIcXum2qZE/8gA0dixlNhkTK0JXY8L9V7ja6/ztf/cH5sH3p6irSHMQOjwNqebHL0dX4GLa7Pp8Zl0XIBdWI\u003d","sign":"I7/V/AzPrJE9961gb2ozhgOYwBn+PdrQFxJZ8FAf4sQSJ6UsD/xLoIUYQfNrH9hWGUqeQxsJ08CVmrQGz9Po18XLHFnf+xG8inhhuwvaE6rsDmB/PRqsMH3AcuRAQQOr/PWGn4/Gzm3Zj51tN34WtHJN+Kxi9hi16W4D71fSu+6weg9vQdgBDdC3TjKuvh221oUVYXHt7ps3PY5Veo9sM2GV1hkfFhv6/ywHIqSfW7Ud5tX/wWG5q1U3Y6bvrjWYIMSZ/5zNL5wFl2aZnJzIRQdS9khN61N10XoRZKC9xuIITQZQkPmWdx8knAzIt6LRH6N1I5yJ4HDyV0Ocj0vBjw\u003d\u003d"}
+06-10-2023 15:44:10: Data : IulN9B+HZtjHfYC8XnImcvAWP3eYc6sXcjB1es1iZ/UuMzQAOAFbUjRqetb/44ihxYsmphCxuYzvx8YLE90o7rw5ekviqMsjhyFFTM5dXVeMHNfXbTLi9z5LsnmkVLASFfrdoZNi52LX0rvumBZaZ0Nr+6g/knu+h3JSIPxVOwFKrCRMMhhc+3pcR+TaF7EfDqKL2GdojjMN2o4Wj381D8j+R18jHMiNmDsr/u6AH6viFDlWvr7Bb5MLx+aZ1LNe/aLc0GBcExBybWTZn0P5cJSw74ZTi6nTRtsGDJlCmVpha0FM/F8Ys4bCOmrUFJyGcS/56amPGDbU+lr08ajtBjQ/R4p7D2CSftP+dmMSi4DYBVyn1XJRfpzdPLaaMJUG4dYEzoVNtz8Np+84XSW198l9c6eRh0NcO+3R0WOKzMpYZcgDFgNDZ2ZGR7qdmgGjx/30e+MmXm7jy71usdZyYSTW95cPUKfTECSPTXXCEWP3pZtvTRQs+lK4k6vHyAr6hGoiFV9YQJCQ/z8GN3c8xEcyIcXum2qZE/8gA0dixlNhkTK0JXY8L9V7ja6/ztf/cH5sH3p6irSHMQOjwNqebHL0dX4GLa7Pp8Zl0XIBdWI=
+06-10-2023 15:44:10: Sign : I7/V/AzPrJE9961gb2ozhgOYwBn+PdrQFxJZ8FAf4sQSJ6UsD/xLoIUYQfNrH9hWGUqeQxsJ08CVmrQGz9Po18XLHFnf+xG8inhhuwvaE6rsDmB/PRqsMH3AcuRAQQOr/PWGn4/Gzm3Zj51tN34WtHJN+Kxi9hi16W4D71fSu+6weg9vQdgBDdC3TjKuvh221oUVYXHt7ps3PY5Veo9sM2GV1hkfFhv6/ywHIqSfW7Ud5tX/wWG5q1U3Y6bvrjWYIMSZ/5zNL5wFl2aZnJzIRQdS9khN61N10XoRZKC9xuIITQZQkPmWdx8knAzIt6LRH6N1I5yJ4HDyV0Ocj0vBjw==
+06-10-2023 15:44:10: DecodeAndDecrypt started.
+06-10-2023 15:44:10: Encrypted value : IulN9B+HZtjHfYC8XnImcvAWP3eYc6sXcjB1es1iZ/UuMzQAOAFbUjRqetb/44ihxYsmphCxuYzvx8YLE90o7rw5ekviqMsjhyFFTM5dXVeMHNfXbTLi9z5LsnmkVLASFfrdoZNi52LX0rvumBZaZ0Nr+6g/knu+h3JSIPxVOwFKrCRMMhhc+3pcR+TaF7EfDqKL2GdojjMN2o4Wj381D8j+R18jHMiNmDsr/u6AH6viFDlWvr7Bb5MLx+aZ1LNe/aLc0GBcExBybWTZn0P5cJSw74ZTi6nTRtsGDJlCmVpha0FM/F8Ys4bCOmrUFJyGcS/56amPGDbU+lr08ajtBjQ/R4p7D2CSftP+dmMSi4DYBVyn1XJRfpzdPLaaMJUG4dYEzoVNtz8Np+84XSW198l9c6eRh0NcO+3R0WOKzMpYZcgDFgNDZ2ZGR7qdmgGjx/30e+MmXm7jy71usdZyYSTW95cPUKfTECSPTXXCEWP3pZtvTRQs+lK4k6vHyAr6hGoiFV9YQJCQ/z8GN3c8xEcyIcXum2qZE/8gA0dixlNhkTK0JXY8L9V7ja6/ztf/cH5sH3p6irSHMQOjwNqebHL0dX4GLa7Pp8Zl0XIBdWI=
+06-10-2023 15:44:10: signatureHex : I7/V/AzPrJE9961gb2ozhgOYwBn+PdrQFxJZ8FAf4sQSJ6UsD/xLoIUYQfNrH9hWGUqeQxsJ08CVmrQGz9Po18XLHFnf+xG8inhhuwvaE6rsDmB/PRqsMH3AcuRAQQOr/PWGn4/Gzm3Zj51tN34WtHJN+Kxi9hi16W4D71fSu+6weg9vQdgBDdC3TjKuvh221oUVYXHt7ps3PY5Veo9sM2GV1hkfFhv6/ywHIqSfW7Ud5tX/wWG5q1U3Y6bvrjWYIMSZ/5zNL5wFl2aZnJzIRQdS9khN61N10XoRZKC9xuIITQZQkPmWdx8knAzIt6LRH6N1I5yJ4HDyV0Ocj0vBjw==
+06-10-2023 15:44:11: decrypted value : eyJ1bmlxdWVUeElkIjoiSU5PU0MwMDAwTVVNMDUxMDIwMjMwMDAwMiIsInByb2Nlc3NpbmdTdGF0dXMiOiJGYWlsZWQiLCJyZWN2ZFJlY29yZENvdW50IjoxLCJwcm9jZXNzZWRSZWNvcmRDb3VudCI6MCwiaXJtU3RhdHVzTHN0IjpbeyJpcm1OdW1iZXIiOiJJUk1OTzIxMjEyMTIiLCJpcm1Jc3N1ZURhdGUiOiIyNDA4MjAyMyIsImFja1N0YXR1cyI6IkVycm9yZWQiLCJlcnJvckRldGFpbHMiOlt7ImVycm9yQ29kZSI6IkVSUklSTTQyIiwiZXJyb3JEZXRhaWxzIjoiUmVtaXR0YW5jZSBkYXRlIGlzIGdyZWF0ZXIgdGhhbiBJUk0gaXNzdWUgZGF0ZS4ifV19XX0=
+06-10-2023 15:44:11: signatureHex : I7/V/AzPrJE9961gb2ozhgOYwBn+PdrQFxJZ8FAf4sQSJ6UsD/xLoIUYQfNrH9hWGUqeQxsJ08CVmrQGz9Po18XLHFnf+xG8inhhuwvaE6rsDmB/PRqsMH3AcuRAQQOr/PWGn4/Gzm3Zj51tN34WtHJN+Kxi9hi16W4D71fSu+6weg9vQdgBDdC3TjKuvh221oUVYXHt7ps3PY5Veo9sM2GV1hkfFhv6/ywHIqSfW7Ud5tX/wWG5q1U3Y6bvrjWYIMSZ/5zNL5wFl2aZnJzIRQdS9khN61N10XoRZKC9xuIITQZQkPmWdx8knAzIt6LRH6N1I5yJ4HDyV0Ocj0vBjw==
+06-10-2023 15:44:11: VerifySignature started.
+06-10-2023 15:44:11: Decrypted data for signature verification is : eyJ1bmlxdWVUeElkIjoiSU5PU0MwMDAwTVVNMDUxMDIwMjMwMDAwMiIsInByb2Nlc3NpbmdTdGF0dXMiOiJGYWlsZWQiLCJyZWN2ZFJlY29yZENvdW50IjoxLCJwcm9jZXNzZWRSZWNvcmRDb3VudCI6MCwiaXJtU3RhdHVzTHN0IjpbeyJpcm1OdW1iZXIiOiJJUk1OTzIxMjEyMTIiLCJpcm1Jc3N1ZURhdGUiOiIyNDA4MjAyMyIsImFja1N0YXR1cyI6IkVycm9yZWQiLCJlcnJvckRldGFpbHMiOlt7ImVycm9yQ29kZSI6IkVSUklSTTQyIiwiZXJyb3JEZXRhaWxzIjoiUmVtaXR0YW5jZSBkYXRlIGlzIGdyZWF0ZXIgdGhhbiBJUk0gaXNzdWUgZGF0ZS4ifV19XX0=
+06-10-2023 15:44:11: signatureHex : I7/V/AzPrJE9961gb2ozhgOYwBn+PdrQFxJZ8FAf4sQSJ6UsD/xLoIUYQfNrH9hWGUqeQxsJ08CVmrQGz9Po18XLHFnf+xG8inhhuwvaE6rsDmB/PRqsMH3AcuRAQQOr/PWGn4/Gzm3Zj51tN34WtHJN+Kxi9hi16W4D71fSu+6weg9vQdgBDdC3TjKuvh221oUVYXHt7ps3PY5Veo9sM2GV1hkfFhv6/ywHIqSfW7Ud5tX/wWG5q1U3Y6bvrjWYIMSZ/5zNL5wFl2aZnJzIRQdS9khN61N10XoRZKC9xuIITQZQkPmWdx8knAzIt6LRH6N1I5yJ4HDyV0Ocj0vBjw==
+06-10-2023 15:44:11: Signature Verified: Data integrity confirmed.
+06-10-2023 15:44:11: Actual decoded data is : {"uniqueTxId":"INOSC0000MUM0510202300002","processingStatus":"Failed","recvdRecordCount":1,"processedRecordCount":0,"irmStatusLst":[{"irmNumber":"IRMNO2121212","irmIssueDate":"24082023","ackStatus":"Errored","errorDetails":[{"errorCode":"ERRIRM42","errorDetails":"Remittance date is greater than IRM issue date."}]}]}
+06-10-2023 15:44:11: UniqueTxId : INOSC0000MUM0510202300002
+06-10-2023 15:44:11: ProcessingStatus : Failed
+06-10-2023 15:44:11: RecvdRecordCount : 1
+06-10-2023 15:44:11: ProcessedRecordCount : 0
+06-10-2023 15:44:11: IrmStatusLst : [
+  {
+    "irmNumber": "IRMNO2121212",
+    "irmIssueDate": "24082023",
+    "ackStatus": "Errored",
+    "errorDetails": [
+      {
+        "errorCode": "ERRIRM42",
+        "errorDetails": "Remittance date is greater than IRM issue date."
+      }
+    ]
+  }
+]
+06-10-2023 15:44:11: Status Updated for INOSC0000MUM0510202300002
+06-10-2023 15:44:11: responsebody : {"AccessToken": "eyJraWQiOiJcL0dWa2VucXUrazZadkpocTk0ZVFOK0Q1bDRManJtbERZTjBPYWdUcFZFYz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5NDk4MzM5NS05OWE2LTRmYmUtYjc1Mi04MmE5ODRlZGM5YzEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9KcmozZXlUVDkiLCJjb2duaXRvOnVzZXJuYW1lIjoiYW56YmdfYXBpX3VzZXIiLCJvcmlnaW5fanRpIjoiOWMyNGEzMDMtYjkyNi00OTAyLThlYjctYjc1ODA0NzdmOWM0IiwiYXVkIjoiN25hYnBiOTduMzE1MjV2a21zY3U4ZmZmczciLCJldmVudF9pZCI6IjExOTVlZGY0LWQ4MGEtNGNhZi1iYzc1LTVkNDdlYjU3ZDYyNiIsInRva2VuX3VzZSI6ImlkIiwic2NvcGUiOiIiLCJhdXRoX3RpbWUiOjE2OTY1ODcyNDUsImV4cCI6MTY5NjU5MDg0NSwiaWF0IjoxNjk2NTg3MjQ1LCJqdGkiOiI4NmMxZjE3NC1kNzU5LTQzNzQtOGQzNC0wMzVhMmI2Y2Q5ZjAiLCJlbWFpbCI6ImFuemJnQGFuemJnLmNvbSJ9.QWzBR0E0WClif4wkHAPZvDqX3hyDJ9AOQtq3A4oz6nG5ToOf5qxgAWPjd_CLouGP61kKAODV0h6nkTFZLCUhTRa5P2Kx_zu4_4p7l6WoTWJZDRFPEjYYm2MVEEav53l5KhWHtOR5wHGDLhUXrTxJEnzywmUB6q-Dfy0R1VR8GlzDiZyB4En7TdzhrlqGr-IVZdzh_eJGAehC6lhLTBk2zw1hc8PsbL5P21lyJnpTOyqCgj0OjCMFyNukgImTF8zDIJiQM6sxUb6BsGF_QTXTsNEuLMdYwpYFsMwh2rCGsEYRKqbwtB5fijkxnqyHTRXbKE0ZhGt27BpgoGBI_QbclA", "ExpiresIn": 3600, "userID": "ANZBG_api_user"}
